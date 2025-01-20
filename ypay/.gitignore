@@ -1,0 +1,11 @@
+.DS_Store
+.dart_tool/
+.idea/
+.metadata
+.packages
+pubspec.lock
+.pub/
+build/
+
+# FVM Version Cache
+.fvm/

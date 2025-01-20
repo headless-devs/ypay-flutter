@@ -1,0 +1,34 @@
+name: ypay
+description: YPay Flutter SDK.
+version: 1.0.3
+repository: https://github.com/headless-devs/ypay-flutter
+issue_tracker: https://github.com/headless-devs/ypay-flutter/issues
+homepage: https://thehead.ru/
+
+environment:
+  sdk: ">=3.0.0  <4.0.0"
+  flutter: ">=2.0.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: ypay_android
+      ios:
+        default_package: ypay_ios
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ypay_android: ^1.0.3
+  ypay_ios: ^1.0.3
+  ypay_platform_interface: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+analyzer:
+  exclude: ['**_test.dart']
+

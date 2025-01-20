@@ -1,0 +1,21 @@
+name: ypay_platform_interface
+description: Platform interface for Yandex Pay SDK.
+version: 1.0.3
+repository: https://github.com/headless-devs/ypay-flutter
+homepage: https://thehead.ru/
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+analyzer:
+  exclude: ['**_test.dart']

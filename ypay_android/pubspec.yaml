@@ -1,0 +1,30 @@
+name: ypay_android
+description: "YPay Android SDK"
+version: 1.0.3
+repository: https://github.com/headless-devs/ypay-flutter
+homepage: https://thehead.ru/
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.3.0'
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.yandex.pay.ypay_android
+        pluginClass: YpayAndroidPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  ypay_platform_interface: ^1.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
